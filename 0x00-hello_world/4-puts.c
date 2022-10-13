@@ -1,7 +1,7 @@
 /**
  * main - prints the msg
  * Return: 0 if successful
- * /
+ */
 #include <stdio.h>
 
 int main(void)
