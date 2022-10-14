@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/**
- * main - main fuction generate a random number
- * Return: return 0(successful)
- */
 
+/**
+ * main - Determines if a number is positive, negative or zero.
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
-
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
